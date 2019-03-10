@@ -1,0 +1,187 @@
+/*
+#########################
+reset css
+#########################
+*/
+*{
+	font-family:微软雅黑;
+	padding:0px;
+	margin:0px;
+}
+ul{
+	list-style:none;
+}
+li,dt,dd{
+	margin-bottom:2px;
+}
+a:hover{
+	text-decoration:none;
+}
+.navbar{
+	margin-bottom:0px;
+	border:none;
+}
+p.form-control{
+	border:none;
+}
+body.container-fluid{
+	padding:0px;
+	overflow-x: hidden;
+}
+/*#########################
+element css
+#########################
+*/
+html,
+body {
+    height: 100%;
+}
+table .glyphicon{
+	margin-right: 20px;
+	cursor:pointer;
+}
+table caption{
+	font-size: 25px;
+}
+
+/*tool css*/
+.pull-center{
+	text-align: center;
+	display: block;
+	margin:0px auto;
+}
+
+
+
+
+
+
+
+.btn-nobg{
+	background:none;
+	color:#fff;
+}
+.btn-nobg:hover{
+	background:none;
+	color:#fff;
+}
+.btn-nobg:focus{
+	background:none;
+	color:#fff;
+}
+
+
+.text-message{
+	padding:0px 20px;
+	border-left: 5px solid #BBE2FD;
+}
+.message-title{
+	font-size: 18px;
+}
+.message-info{
+	font-size: 15px;
+	color:#ccc;
+}
+
+.message-content{
+	letter-spacing: 1px;
+	border-left:3px solid #BBE2FD;
+}
+
+
+
+.datetime{
+	color:#ccc;
+}
+
+/**animation*/
+
+.auto-hide
+{
+animation: myfirst  0s ease-in 5s forwards;
+-moz-animation: myfirst  0s ease-in 5s forwards;	/* Firefox */
+-webkit-animation: myfirst  0s ease-in 5s forwards;	/* Safari 和 Chrome */
+-o-animation: myfirst  0s ease-in 5s forwards;	/* Opera */
+overflow:hidden;
+}
+
+@keyframes myfirst
+{
+100% {
+	width : 0px;
+	height : 0px;
+	padding:0px;
+	margin:0px;
+	overflow: hidden;
+}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+100% {
+	padding:0px;
+	margin:0px;
+	width : 0px;
+	height : 0px;
+	overflow: hidden;
+}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+100% {
+	padding:0px;
+	margin:0px;
+	width:0px;
+	height:0px;
+	visibility:hidden;
+}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+100% {
+	padding:0px;
+	margin:0px;
+	width : 0px;
+	height : 0px;
+	overflow: hidden;
+}
+}
+
+
+
+.page404{
+	padding:100px 0px;
+	background: #222;
+	height: 500px;
+}
+.page404 .img{
+	position: relative;
+}
+.page404 .img img{
+	position: absolute;
+}
+.page404 .img{
+	position: relative;
+	width:370px;
+	height:250px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.page404 .font{
+	position: absolute;
+	display: block;
+	font-family:微软雅黑;
+	font-size: 200px;
+	color:#fff;
+	font-weight: bold;
+	padding:0px;
+	width:370px;
+	height:250px;
+	line-height: 250px;
+
+}
+.page404 .zhizhao{
+	left:-185px;
+}

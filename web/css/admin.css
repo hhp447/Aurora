@@ -1,0 +1,97 @@
+/**
+ * 用于用户个人中心页面的css控制
+ * 
+ */
+/***************** reset css*/
+
+.trumbowyg{
+	margin:0px;
+}
+
+/*class css*/
+.face{
+	width:150px;
+	height:150px;
+}
+
+
+
+
+/**********头部*/
+#header{
+	background: #75B6E4;
+}
+#header h1{
+	color:#fff;
+}
+#nav span{
+	text-align: center;
+	display: inline-block;
+	width:100%;
+}
+/**********导航条*/
+#nav .col-sm-2{
+	background:#7FC3F4;
+}
+#nav .col-sm-2.odd{
+	background:#78BCED;
+}
+#nav span a{
+	display:block;
+	padding:15px 0px;
+	color:#000;
+	font-size:18px;
+	color:#fff;
+}
+#nav span a:hover{
+	text-decoration: none;
+}
+/**********侧栏*/
+.siderbar{
+	padding:0px;
+}
+.siderbar ul li{
+	text-align: center;
+	width:100%;
+	background:#78BCED;
+	margin-top: 5px;
+}
+.siderbar ul li.odd{
+	background:#7FC3F4;
+}
+.siderbar ul li a{
+	display:inline-block;
+	padding:10px 0px;
+	color:#fff;
+	font-size: 18px;
+}
+
+/**********正文主体*/
+.content{
+	padding:5px 20px;
+}
+
+
+.default-headface{
+	padding-top:10px;
+}
+.default-headface img{
+	width:50px;
+	height:50px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
